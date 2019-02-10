@@ -8,6 +8,8 @@ import static org.testng.Assert.assertEquals;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * @author pavan
@@ -34,8 +36,9 @@ public LoginPage(WebDriver driver)
 
 public void LogintoPapercut()
 {
+	WebDriverWait wait = new WebDriverWait(driver, 60, 100);
+    wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='inputUsername']")));
 	
-	driver.findElement(username).isDisplayed();
 	driver.findElement(username).sendKeys("admin");
 	driver.findElement(password).click();
 	driver.findElement(password).sendKeys("Bh0l3nath1!");
