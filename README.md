@@ -11,6 +11,7 @@ Install following softwares -
 2. Eclipse - url - https://eclipse.org/downloads/
 3. TestNG
 4. Download Selenium server jar from http://docs.seleniumhq.org/download/
+5. Download geckodriver.exe
 
 Open Eclipse-
 1. Click on Help>Install new software
