@@ -1,10 +1,12 @@
 # PCTest
 **Author**
 Pavan Mishra
+**Date**
+11/2/2019
 
 Please read below steps to execute the selenium scripts using eclipse.
 
-Working only on Windows machine and firefox browser - 
+It will work only on Windows machine and firefox browser. ** Later can be extended to support multi OS and browser**
 
 Install following softwares - 
 1. JDK - set the Environment and user variables 
